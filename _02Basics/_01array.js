@@ -16,4 +16,14 @@ let a=10;
 let b=20;
 let c=30;
 let d=40;
-console.log(Array.of(a,b,c,d));//[ 10, 20, 30, 40 ]
+
+
+
+let aother_array=[1,2,3,[5,6,7],7,89,[0,1,6,7]];
+let real_array=aother_array.flat();
+console.log(real_array);//[ 1, 2, 3, 5, 6, 7, 7, 89, 0, 1, 6, 7 ]
+/*[
+    1, 2,  3, 5, 6,
+    7, 7, 89, 0, 1,
+    6, 7
+  ]*/
