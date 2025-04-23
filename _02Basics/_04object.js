@@ -15,3 +15,4 @@ const user = {
 const {lstlogginDays :insbalhf} = user
 // console.log(lstlogginDays)//[ 'Monday', 'Saturday' ]    
 console.log(insbalhf)//[ 'Monday', 'Saturday' ]    
+//
