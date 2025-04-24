@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     #bgc{
+        
+     }
+    </style>
+    <title>DOM Part-2</title>
+</head>
+<body id="bgc" style="background-color: black; color: rgb(205, 24, 24);">
+    <div class="parent">
+      <div class="day">Monday</div>
+      <div class="day">Tuesday </div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+    </div>
+
+    <script>
+     const parent = document.querySelector('.parent');
+    //  console.log(parent);
+    //  console.log(parent.children);
+    //  console.log(parent.children[1].innerHTML);//Monday
+
+
+
+     for(let i = 0; i < parent.children.length; i++){
+        //console.log(parent.children[i].innerHTML);
+     }
+
+    parent.children[1].style.color = "yellow" ;
+   
+
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+
+
+    document.querySelector('.day').style.color = "pink";
+    const dauyOne=document.querySelector('.day');
+    // console.log(dauyOne);
+    // console.log(dauyOne.parentElement);
+    // console.log(dauyOne.nextElementSibling);
+    // console.log(dauyOne.nextElementSibling.nextElementSibling);
+
+
+    console.log("NODES: ",parent.childNodes)
+
+
+    </script>
+
+</body>
+</html>
